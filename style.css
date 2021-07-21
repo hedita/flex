@@ -2,7 +2,7 @@
   display: flex;
   flex: 1;
   gap: 5px;
-  margin: 35px 35px;
+  margin: 25px;
 }
 
 .box-left {
@@ -21,8 +21,10 @@
 .news-list {
   list-style-type: none;
   display: flex;
+  justify-content: space-around;
   gap: 30px;
   flex-wrap: wrap;
+  padding: 0 0;
 }
 
 .list-item {
@@ -30,10 +32,14 @@
   padding: 35px;
 }
 
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .links-list {
   list-style-type: none;
   display: flex;
-  justify-content: flex-end;
   font-size: large;
 }
 
