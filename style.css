@@ -1,115 +1,98 @@
-.container {
+.box-container {
   display: flex;
   flex: 1;
   gap: 5px;
   margin: 35px 35px;
 }
 
-.box1 {
-  border: 1px solid black;
+.box-left {
+  border: 1px solid #000000;
   flex: 1;
   min-height: 250px;
 }
 
-.box2 {
-  border: 1px solid black;
+.box-right {
+  border: 1px solid #000000;
   flex: 2;
   text-align: center;
-  margin-right: 100px;
   padding-top: 100px;
 }
 
-ul {
+.news-list {
   list-style-type: none;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 
-.items {
-  border: 1px black solid;
+.list-item {
+  border: 1px #000000 solid;
   padding: 35px;
-  margin-right: -5px;
 }
 
-.links {
+.links-list {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
   font-size: large;
-  margin-right: 85px;
 }
 
-.sitename {
+.site-name {
   display: flex;
   justify-content: start;
   font-size: large;
   margin-left: 35px;
-  margin-top: -73px;
 }
 
-.link {
+.link-item {
   padding: 35px;
 }
 
 /* Tablets and under */
 @media(max-width: 768px) {
 
-.links {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  font-size: large;
-  flex-direction: row;
-  margin-left: -45px;
-}
+  .links-list {
+    justify-content: space-around;
+    flex-direction: row;
+  }
 
-.sitename {
-  display: flex;
-  justify-content: center;
-  font-size: medium;
-  margin-right: 120px;
-  margin-top: -73px;
-  
-}
+  .site-name {
+    justify-content: center;
+    font-size: medium;
+    margin-right: 120px;
+  }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin-left: -5px;
-}
+  .list-items {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
 
 }
 
 /* Mobile */
 @media(max-width: 500px) {
 
-.box1 {
-  margin-top: 35px;
-}
+  .box-left {
+    margin-top: 35px;
+  }
 
-.box2 {
-  display: none;
-}
+  .box-right {
+    display: none;
+  }
 
-.link {
-  display: none;
-}
+  .link-item {
+    display: none;
+  }
 
-.sitename {
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  margin-left: 35px;
-  margin-top: -73px;
-}
+  .site-name {
+    justify-content: center;
+  }
 
-.items {
-  border: 1px black solid;
-  padding: 35px;
-  margin-right: -35px;
-}
+  .list-item {
+    border: 1px #000000 solid;
+    padding: 35px;
+  }
 
 }
