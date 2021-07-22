@@ -1,8 +1,6 @@
 .box-container {
   display: flex;
-  flex: 1;
   gap: 5px;
-  margin: 25px;
 }
 
 .box-left {
@@ -21,20 +19,20 @@
 .news-list {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 30px;
   flex-wrap: wrap;
-  padding: 0 0;
+  padding: 0;
 }
 
 .list-item {
   border: 1px #000000 solid;
   padding: 35px;
+  flex: calc(15% - 30px);
 }
 
 .header-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -45,18 +43,20 @@
   margin: 0;
 }
 
+.link-item:last-child {
+  padding: 0;
+}
+
 .site-name {
   display: flex;
-  justify-content: start;
   font-size: large;
-  margin-left: 35px;
 }
 
 .link-item {
   padding: 0 35px;
 }
 
-.raper {
+.wrapper {
   max-width: 1200px;
   margin: 0auto;
 }
@@ -66,13 +66,11 @@
 
   .links-list {
     justify-content: space-around;
-    flex-direction: row;
   }
 
   .site-name {
     justify-content: center;
     font-size: medium;
-    margin-right: 120px;
   }
 
   .list-items {
