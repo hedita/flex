@@ -41,7 +41,7 @@
 .links-list {
   list-style-type: none;
   display: flex;
-  font-size: large;
+  font-size: 1.2em;
   margin: 0;
 }
 
@@ -80,6 +80,7 @@
     gap: 30px;
     flex-wrap: wrap;
   }
+
 }
   
 /* Mobile */
