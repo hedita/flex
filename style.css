@@ -30,7 +30,8 @@
 .list-item {
   border: 1px #000000 solid;
   padding: 35px;
-  flex: calc(15% - 30px);
+  flex: calc(25% - 30px);
+  box-sizing: border-box;
 }
 
 .header-container {
@@ -79,6 +80,7 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    flex: calc(50% - 30px);
   }
 
 }
@@ -106,5 +108,6 @@
   .list-item {
    width: 75%;
    text-align: center;
+   flex: calc(100% - 30px);
   }
 }
