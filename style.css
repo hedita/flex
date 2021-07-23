@@ -12,8 +12,9 @@
 .box-right {
   border: 1px solid #000000;
   flex: 2;
-  text-align: center;
-  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .news-list {
@@ -23,6 +24,7 @@
   gap: 30px;
   flex-wrap: wrap;
   padding: 0;
+  margin: 30px 0;
 }
 
 .list-item {
@@ -49,7 +51,7 @@
 
 .site-name {
   display: flex;
-  font-size: large;
+  font-size: 1.3em;
 }
 
 .link-item {
@@ -58,7 +60,7 @@
 
 .wrapper {
   max-width: 1200px;
-  margin: 0auto;
+  margin: 0 auto;
 }
 
 /* Tablets and under */
@@ -70,7 +72,6 @@
 
   .site-name {
     justify-content: center;
-    font-size: medium;
   }
 
   .list-items {
