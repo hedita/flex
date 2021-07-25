@@ -24,7 +24,7 @@
   gap: 30px;
   flex-wrap: wrap;
   padding: 0;
-  margin: 30px 0;
+  margin: 30px 0 15px;
 }
 
 .list-item {
@@ -64,6 +64,11 @@
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.footer {
+  background-color: #F8DA1B;
+  padding: 60px;
 }
 
 /* Tablets and under */
