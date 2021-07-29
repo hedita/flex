@@ -1,20 +1,26 @@
+body {
+  background-color:#F2F2F2 ;
+}
+
 .box-container {
   display: flex;
   gap: 5px;
 }
 
 .box-left {
-  border: 1px solid #000000;
+  border: 1px solid #F2F2F2;
   flex: 1;
   min-height: 250px;
 }
 
 .box-right {
-  border: 1px solid #000000;
+  border: 1px solid #F2F2F2;
   flex: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #ffffff;
+}
+
+.title {
+  color: #607C80;
 }
 
 .news-list {
@@ -28,10 +34,10 @@
 }
 
 .list-item {
-  border: 1px #000000 solid;
-  padding: 35px;
+  border: 1px #F2F2F2 solid;
   flex: calc(25% - 30px);
   box-sizing: border-box;
+  background-color: #ffffff;
 }
 
 .header-container {
@@ -69,6 +75,12 @@
 .footer {
   background-color: #F8DA1B;
   padding: 60px;
+}
+
+.responsive-image {
+  height: auto;
+  width: 100%;
+  display: block;
 }
 
 /* Tablets and under */
