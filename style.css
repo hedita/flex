@@ -71,7 +71,7 @@ body {
 }
 
 .link-item {
-  padding: 0 35px;
+  padding: 0 15px;
   font-size: 1rem;
 }
 
@@ -100,7 +100,14 @@ body {
 
 .information {
   padding-left: 15px;
+  padding-right: 15px;
 }
+
+a:hover {
+  color:#607C80;
+  background-color: #F2F2F2 ;
+}
+
 /* Tablets and under */
 @media(max-width: 768px) {
 
