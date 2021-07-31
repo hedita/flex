@@ -21,6 +21,10 @@ body {
 
 .title {
   color: #607C80;
+  padding-left: 15px;
+}
+.title-2 {
+  padding-left: 15px;
 }
 
 .news-list {
@@ -86,7 +90,17 @@ body {
   width: 100%;
   display: block;
 }
+ .text {
+  padding-left: 15px;
+}
 
+.list-items-title {
+  padding-left: 15px;
+}
+
+.information {
+  padding-left: 15px;
+}
 /* Tablets and under */
 @media(max-width: 768px) {
 
