@@ -1,11 +1,12 @@
 body {
   background-color:#F2F2F2;
+  margin: 0;
 }
 
 .box-container {
   display: flex;
   gap: 5px;
-  margin: 25px 150px 0 150px;
+  margin-top: 15px;
 }
 
 .box-left {
@@ -37,7 +38,6 @@ body {
   gap: 30px;
   flex-wrap: wrap;
   padding: 0;
-  margin: 25px 150px 25px 150px;
 }
 
 .list-item {
@@ -48,20 +48,17 @@ body {
 }
 
 .site-header-container {
-  display: flex;
-  justify-content: space-between;
   background-color: #F8DA1B;
   padding: 20px;
-  padding-left: 155px;
-  padding-right: 155px;
-  
 }
 
 .links-list {
   list-style-type: none;
   display: flex;
+  justify-content: flex-end;
   font-size: 1.2em;
   margin: 0;
+  color: #6B5B05;
 }
 
 .link-item:last-child {
@@ -79,7 +76,7 @@ body {
 }
 
 .site-wrapper {
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
