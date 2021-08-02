@@ -1,6 +1,7 @@
 body {
   background-color:#F2F2F2;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .box-container {
@@ -112,6 +113,10 @@ a:hover {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Tablets and under */
 @media(max-width: 768px) {
 
@@ -132,7 +137,6 @@ a:hover {
   }
 
   .box-container {
-    display: flex;
     flex-direction: column;
   }
 
@@ -140,11 +144,6 @@ a:hover {
   
 /* Mobile */
 @media(max-width: 500px) {
-
-  .box-container {
-    display: flex;
-    flex-direction: column;
-  }
 
   .box-left {
     width: 100%;
