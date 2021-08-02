@@ -8,6 +8,7 @@ body {
   display: flex;
   gap: 5px;
   margin-top: 15px;
+  box-shadow: 0 0 2px 3px #EBEBEB ;
 }
 
 .main-news-image {
@@ -54,6 +55,7 @@ body {
   background-color: #ffffff;
   font-weight: bold;
   padding: 5px;
+  box-shadow: 0 0 2px 3px #EBEBEB;
 }
 
 .site-header-container {
