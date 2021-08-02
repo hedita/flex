@@ -13,6 +13,9 @@ body {
 .main-news-image {
   border: 1px solid #F2F2F2;
   flex: 1;
+  margin-right: -12px;
+  padding: 5px;
+  background-color: #ffffff;
 }
 
 .main-news-text {
@@ -23,14 +26,16 @@ body {
 
 .first-title {
   color: #607C80;
-  padding-left: 15px;
+  padding-left: 8px;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .second-title {
-  padding-left: 15px;
+  padding-left: 8px;
   margin-top: -5px;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .news-list {
@@ -47,6 +52,8 @@ body {
   flex: calc(25% - 30px);
   box-sizing: border-box;
   background-color: #ffffff;
+  font-weight: bold;
+  padding: 5px;
 }
 
 .site-header-container {
@@ -87,6 +94,8 @@ body {
 .footer {
   background-color: #F8DA1B;
   padding: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .responsive-image {
@@ -96,8 +105,9 @@ body {
 }
 
  .text {
-  padding-left: 15px;
+  padding-left: 8px;
   margin-top: -5px;
+  font-weight: bold;
 }
 
 .list-items-title {
