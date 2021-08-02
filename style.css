@@ -56,7 +56,6 @@ body {
 .links-list {
   list-style-type: none;
   display: flex;
-  justify-content: flex-end;
   font-size: 1.2em;
   margin: 0;
   color: #6B5B05;
@@ -79,6 +78,8 @@ body {
 .site-wrapper {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
