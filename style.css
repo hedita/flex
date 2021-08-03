@@ -115,7 +115,8 @@ body {
 
 .list-item-title {
   text-align: left;
-  padding: 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .list-item-information {
