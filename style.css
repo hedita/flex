@@ -30,7 +30,7 @@ body {
 
 .first-title {
   color: #607C80;
-  padding-left: 8px;
+  padding: 8px 8px;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -159,7 +159,7 @@ a {
   .list-item {
     flex: calc(50% - 30px);
   }
-
+  
   .main-news-container {
     flex-direction: column;
   }
@@ -168,10 +168,6 @@ a {
   
 /* Mobile */
 @media(max-width: 600px) {
-
-  .main-news-image {
-    width: 100%;
-  }
 
   .link-item {
     display: none;
