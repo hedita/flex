@@ -113,14 +113,14 @@ body {
   padding: 10px 10px;
 }
 
-.list-items-title {
+.list-item-title {
   text-align: left;
   padding: 10px 10px;
 }
 
-.information {
-  padding-left: 15px;
-  padding-right: 15px;
+.list-item-information {
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: left;
 }
 
@@ -178,9 +178,9 @@ a {
   }
 
   .list-item {
-   width: 75%;
-   text-align: center;
-   flex: calc(100% - 30px);
+    width: 75%;
+    text-align: center;
+    flex: calc(100% - 30px);
   }
 
 }
