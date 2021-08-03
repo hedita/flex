@@ -146,7 +146,7 @@ a {
 }
 
 /* Tablets and under */
-@media(max-width: 768px) {
+@media(max-width: 900px) {
 
   .links-list {
     justify-content: space-around;
@@ -161,6 +161,9 @@ a {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+  }
+
+  .list-item {
     flex: calc(50% - 30px);
   }
 
@@ -171,7 +174,7 @@ a {
 }
   
 /* Mobile */
-@media(max-width: 500px) {
+@media(max-width: 600px) {
 
   .main-news-image {
     width: 100%;
